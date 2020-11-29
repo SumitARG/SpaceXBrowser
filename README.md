@@ -9,7 +9,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. I have used Bootstrap for making the app mobile responsive. However, same is possible with Media queries in css.
 4. I have used rest-apis.service for all Rest API interactions and storing some shared data / constants.
 5. I have also included Unit Test cases for the coverage and the overall project coverage screenshot is attached. (I am using Karma and Jasmine as my test suit.)
+![alt text](https://github.com/SumitARG/SpaceXBrowser/blob/master/document_images/Coverage_image.PNG)
 6. I have also run the lighthouse report and attached the image of same. The Performance score stand at 80,while all others (Accessibility, Best practices, SEO) stand above 90. (Please note that the performance score is also affected due to slower server response for the give APIs).
+![alt text](https://github.com/SumitARG/SpaceXBrowser/blob/master/document_images/Lighthouse_image.PNG)
 
 
 
