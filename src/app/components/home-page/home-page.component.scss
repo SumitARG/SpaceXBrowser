@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    background: rgb(223, 221, 221);
+    // padding: 10px;
+    max-width:1440px;
+}
+.max-width-div{
+    max-width:1440px
+}
+.card{
+    background: white;
+    // width: 20%;
+    padding: 5px;
+    position: relative;
+}
+.cards-container{
+    display: inline-flex;
+}
+.display-cards{
+    margin-bottom: 10px;
+}
+.filter-name{
+    font-size: 16px;
+    text-align: center;
+}
+.filter-text{
+    border-bottom: 2px solid #bbb;
+    padding: 0px 10%;
+    margin-bottom: 5px;
+}
+.filter-button{
+    background-color: lightgreen;
+    border-color: lightgreen;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 5px;
+}
+.filter-button:hover{
+    cursor: pointer;
+}
+.selected-filter-button{
+    background-color: rgb(9, 236, 9);
+    border-color: rgb(9, 236, 9);
+}
+.padding-right-0{
+    padding-right: 0px;
+}
+.padding-left-0{
+    padding-left: 0px;
+}
+.image-container{
+    height: 180px;
+    text-align: center;
+    background-color: rgb(223, 221, 221);;
+}
+.image-dim{
+    text-align: center;
+    height: 100%;
+    vertical-align: text-top;
+}
+.mission-name{
+    color:#5454c1;
+    font-size:16px;
+}
+.text-center{
+    text-align: center;
+}
+
+// Media queries for width less than 700px
+@media screen and (max-width: 700px){
+
+}
+
+// Media queries for width less than 1024px
+@media screen and (max-width: 1024px){
+    
+}
